@@ -4,9 +4,14 @@ To use, follow these steps:
 1. Install [http://anaconda.org](Anaconda)
 2. `git checkout https://github.com/shanest/python-tutorial-clms.git`
 3. `cd python-tutorial-clms`
-4. `conda create --name tutorial python=3.8`
+4. `conda create --name tutorial python=3.11`
 5. `conda activate tutorial`
-6. `conda install -c conda-forge rise`
+6. `conda install -c conda-forge rise` (`rise` is a plugin for Jupyter notebooks that enables using them as revealjs slideshows)
 7. `jupyter notebook`
 
-Your browser should now open; by clicking on the `.ipynb` file, you'll open up the notebook, in which you can play around!
+Your browser should now open; by clicking on one of the `.ipynb` files, you'll open up the notebook, in which you can play around!
+
+## Contents
+
+1. `python-language-tutorial.ipynb`: a tutorial mainly around the _language_ of Python, i.e. the syntax, the data structures, the control flow, etc. This was formerly the primary tutorial during CLMS orientation, before Python was the required language in the core sequence.
+2. `python-ecosystem.ipynb`: a tutorial focused more around the _ecosystem_ of Python: advanced language features, package management, editors, and whatnot.
