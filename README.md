@@ -5,9 +5,8 @@ To use, follow these steps:
 2. `git checkout https://github.com/shanest/python-tutorial-clms.git`
 3. `cd python-tutorial-clms`
 4. `conda create --name tutorial python=3.11`
-5. `conda activate tutorial`
-6. `conda install -c conda-forge rise` (`rise` is a plugin for Jupyter notebooks that enables using them as revealjs slideshows)
-7. `jupyter notebook`
+5. `pip install jupyterlab-rise`
+6. `jupyter lab`
 
 Your browser should now open; by clicking on one of the `.ipynb` files, you'll open up the notebook, in which you can play around!
 
