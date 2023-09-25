@@ -1,0 +1,11 @@
+name: clms-python-tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - jupyterlab
+  - jupyterlab_rise
+  - numba
+  - pip
