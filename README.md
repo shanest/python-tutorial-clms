@@ -2,7 +2,7 @@
 
 To use, follow these steps:
 1. Install [Anaconda](http://anaconda.org) / [miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
-2. `git checkout https://github.com/shanest/python-tutorial-clms.git`
+2. `git clone https://github.com/shanest/python-tutorial-clms.git`
 3. `cd python-tutorial-clms`
 4. `conda env create -f environment.yml`
 5. `conda activate clms-python-tutorial`
